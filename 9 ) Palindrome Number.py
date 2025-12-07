@@ -1,10 +1,10 @@
-# Given an integer x, return true if x is a palindrome, and false otherwise.
-
+# using reverse string  method
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         y=str(x)
         return True if y==y[::-1] else False
 
+# using reverse integer method
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         rev=0
