@@ -13,3 +13,9 @@ class Solution:
             a_b[a1]=b1
             b_a[b1]=a1
         return True
+
+
+class Solution:
+    def wordPattern(self, pattern: str, s: str) -> bool:
+        words=s.split()
+        return [words.index(a) for a in words]==[pattern.index(b) for b in pattern]
