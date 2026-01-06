@@ -18,3 +18,12 @@ class Solution:
             if counter[v]==1:
                 return i
         return -1
+
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
+        from collections import Counter
+        counter=Counter(s)
+        for i,v in enumerate(s):
+            if counter[v]==1:
+                return i
+        return -1
