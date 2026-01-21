@@ -1,2 +1,3 @@
-<h1>just solving leetcode problem using different methods</h1>
-#[Leetcode link](https://leetcode.com/u/HwjnonDyvA/)
+# Just solving LeetCode problems using different methods
+
+[LeetCode profile](https://leetcode.com/u/HwjnonDyvA/)
