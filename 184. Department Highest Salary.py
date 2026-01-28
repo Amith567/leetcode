@@ -1,0 +1,8 @@
+select distinct  d.name as Department,e.name as Employee, e.salary as Salary
+from Employee as e
+join Department as d
+on e.departmentId=d.id
+group by e.departmentId
+order by e.salary DESC
+
+not fully funcional solution
